@@ -4,11 +4,11 @@
   "name": "Project",
   "description": "description",
   "colors": {
-    "primary": "#FF0000",
-    "light": "#FF0000",
-    "dark": "#FF0000"
+    "primary": "#f39f21",
+    "light": "#f39f21",
+    "dark": "#f39f21"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "favicon.ico",
   "search": {"prompt": "Search documentation"},
   "navigation": {
     "tabs": [
@@ -28,14 +28,13 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Endpoint",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "petstore/endpoint/create",
+              "petstore/endpoint/update",
+              "petstore/endpoint/delete",
+              "petstore/endpoint/fetch",
+              "petstore/endpoint/fetchall"
             ]
           }
         ]
@@ -44,13 +43,15 @@
         "tab": "ComputeSphere guide",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Getting Started",
             "pages": [
-              "api-reference/introduction"
+              "computesphere/introduction",
+              "computesphere/prerequisite",
+              "computesphere/quickstart"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Endpoint",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
@@ -63,8 +64,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [
